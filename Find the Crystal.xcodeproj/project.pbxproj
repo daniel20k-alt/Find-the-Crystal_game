@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB2B71D237A80FD00FEE668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B71C237A80FD00FEE668 /* AppDelegate.swift */; };
+		EEB2B71F237A80FD00FEE668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B71E237A80FD00FEE668 /* SceneDelegate.swift */; };
+		EEB2B721237A80FD00FEE668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B720237A80FD00FEE668 /* ViewController.swift */; };
+		EEB2B724237A80FD00FEE668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB2B722237A80FD00FEE668 /* Main.storyboard */; };
+		EEB2B726237A810200FEE668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB2B725237A810200FEE668 /* Assets.xcassets */; };
+		EEB2B729237A810200FEE668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB2B727237A810200FEE668 /* LaunchScreen.storyboard */; };
+		EEB2B734237A810200FEE668 /* Find_the_CrystalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B733237A810200FEE668 /* Find_the_CrystalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB2B730237A810200FEE668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB2B711237A80FD00FEE668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB2B718237A80FD00FEE668;
+			remoteInfo = "Find the Crystal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB2B719237A80FD00FEE668 /* Find the Crystal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find the Crystal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB2B71C237A80FD00FEE668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB2B71E237A80FD00FEE668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEB2B720237A80FD00FEE668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEB2B723237A80FD00FEE668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB2B725237A810200FEE668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB2B728237A810200FEE668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB2B72A237A810200FEE668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB2B72F237A810200FEE668 /* Find the CrystalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the CrystalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB2B733237A810200FEE668 /* Find_the_CrystalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_CrystalTests.swift; sourceTree = "<group>"; };
+		EEB2B735237A810200FEE668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB2B716237A80FD00FEE668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB2B72C237A810200FEE668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB2B710237A80FD00FEE668 = {
+			isa = PBXGroup;
+			children = (
+				EEB2B71B237A80FD00FEE668 /* Find the Crystal */,
+				EEB2B732237A810200FEE668 /* Find the CrystalTests */,
+				EEB2B71A237A80FD00FEE668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB2B71A237A80FD00FEE668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB2B719237A80FD00FEE668 /* Find the Crystal.app */,
+				EEB2B72F237A810200FEE668 /* Find the CrystalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB2B71B237A80FD00FEE668 /* Find the Crystal */ = {
+			isa = PBXGroup;
+			children = (
+				EEB2B71C237A80FD00FEE668 /* AppDelegate.swift */,
+				EEB2B71E237A80FD00FEE668 /* SceneDelegate.swift */,
+				EEB2B720237A80FD00FEE668 /* ViewController.swift */,
+				EEB2B722237A80FD00FEE668 /* Main.storyboard */,
+				EEB2B725237A810200FEE668 /* Assets.xcassets */,
+				EEB2B727237A810200FEE668 /* LaunchScreen.storyboard */,
+				EEB2B72A237A810200FEE668 /* Info.plist */,
+			);
+			path = "Find the Crystal";
+			sourceTree = "<group>";
+		};
+		EEB2B732237A810200FEE668 /* Find the CrystalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB2B733237A810200FEE668 /* Find_the_CrystalTests.swift */,
+				EEB2B735237A810200FEE668 /* Info.plist */,
+			);
+			path = "Find the CrystalTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB2B718237A80FD00FEE668 /* Find the Crystal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB2B738237A810200FEE668 /* Build configuration list for PBXNativeTarget "Find the Crystal" */;
+			buildPhases = (
+				EEB2B715237A80FD00FEE668 /* Sources */,
+				EEB2B716237A80FD00FEE668 /* Frameworks */,
+				EEB2B717237A80FD00FEE668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find the Crystal";
+			productName = "Find the Crystal";
+			productReference = EEB2B719237A80FD00FEE668 /* Find the Crystal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB2B72E237A810200FEE668 /* Find the CrystalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB2B73B237A810200FEE668 /* Build configuration list for PBXNativeTarget "Find the CrystalTests" */;
+			buildPhases = (
+				EEB2B72B237A810200FEE668 /* Sources */,
+				EEB2B72C237A810200FEE668 /* Frameworks */,
+				EEB2B72D237A810200FEE668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB2B731237A810200FEE668 /* PBXTargetDependency */,
+			);
+			name = "Find the CrystalTests";
+			productName = "Find the CrystalTests";
+			productReference = EEB2B72F237A810200FEE668 /* Find the CrystalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB2B711237A80FD00FEE668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MeerkatWorks;
+				TargetAttributes = {
+					EEB2B718237A80FD00FEE668 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					EEB2B72E237A810200FEE668 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = EEB2B718237A80FD00FEE668;
+					};
+				};
+			};
+			buildConfigurationList = EEB2B714237A80FD00FEE668 /* Build configuration list for PBXProject "Find the Crystal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB2B710237A80FD00FEE668;
+			productRefGroup = EEB2B71A237A80FD00FEE668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB2B718237A80FD00FEE668 /* Find the Crystal */,
+				EEB2B72E237A810200FEE668 /* Find the CrystalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB2B717237A80FD00FEE668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB2B729237A810200FEE668 /* LaunchScreen.storyboard in Resources */,
+				EEB2B726237A810200FEE668 /* Assets.xcassets in Resources */,
+				EEB2B724237A80FD00FEE668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB2B72D237A810200FEE668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB2B715237A80FD00FEE668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB2B721237A80FD00FEE668 /* ViewController.swift in Sources */,
+				EEB2B71D237A80FD00FEE668 /* AppDelegate.swift in Sources */,
+				EEB2B71F237A80FD00FEE668 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB2B72B237A810200FEE668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB2B734237A810200FEE668 /* Find_the_CrystalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB2B731237A810200FEE668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB2B718237A80FD00FEE668 /* Find the Crystal */;
+			targetProxy = EEB2B730237A810200FEE668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB2B722237A80FD00FEE668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB2B723237A80FD00FEE668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB2B727237A810200FEE668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB2B728237A810200FEE668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB2B736237A810200FEE668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB2B737237A810200FEE668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB2B739237A810200FEE668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FZ5UVTS24;
+				INFOPLIST_FILE = "Find the Crystal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeerkatWorks.Find-the-Crystal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB2B73A237A810200FEE668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FZ5UVTS24;
+				INFOPLIST_FILE = "Find the Crystal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeerkatWorks.Find-the-Crystal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEB2B73C237A810200FEE668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FZ5UVTS24;
+				INFOPLIST_FILE = "Find the CrystalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeerkatWorks.Find-the-CrystalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find the Crystal.app/Find the Crystal";
+			};
+			name = Debug;
+		};
+		EEB2B73D237A810200FEE668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FZ5UVTS24;
+				INFOPLIST_FILE = "Find the CrystalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeerkatWorks.Find-the-CrystalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find the Crystal.app/Find the Crystal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB2B714237A80FD00FEE668 /* Build configuration list for PBXProject "Find the Crystal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB2B736237A810200FEE668 /* Debug */,
+				EEB2B737237A810200FEE668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB2B738237A810200FEE668 /* Build configuration list for PBXNativeTarget "Find the Crystal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB2B739237A810200FEE668 /* Debug */,
+				EEB2B73A237A810200FEE668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB2B73B237A810200FEE668 /* Build configuration list for PBXNativeTarget "Find the CrystalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB2B73C237A810200FEE668 /* Debug */,
+				EEB2B73D237A810200FEE668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB2B711237A80FD00FEE668 /* Project object */;
+}
