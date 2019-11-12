@@ -14,6 +14,9 @@
 		EEB2B726237A810200FEE668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB2B725237A810200FEE668 /* Assets.xcassets */; };
 		EEB2B729237A810200FEE668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB2B727237A810200FEE668 /* LaunchScreen.storyboard */; };
 		EEB2B734237A810200FEE668 /* Find_the_CrystalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B733237A810200FEE668 /* Find_the_CrystalTests.swift */; };
+		EEB2B73F237B3CEA00FEE668 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B73E237B3CEA00FEE668 /* CardsModel.swift */; };
+		EEB2B741237B3F2800FEE668 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B740237B3F2800FEE668 /* Card.swift */; };
+		EEB2B743237B55B000FEE668 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2B742237B55B000FEE668 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		EEB2B72F237A810200FEE668 /* Find the CrystalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the CrystalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB2B733237A810200FEE668 /* Find_the_CrystalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_CrystalTests.swift; sourceTree = "<group>"; };
 		EEB2B735237A810200FEE668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB2B73E237B3CEA00FEE668 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		EEB2B740237B3F2800FEE668 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EEB2B742237B55B000FEE668 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				EEB2B71E237A80FD00FEE668 /* SceneDelegate.swift */,
 				EEB2B720237A80FD00FEE668 /* ViewController.swift */,
 				EEB2B722237A80FD00FEE668 /* Main.storyboard */,
+				EEB2B73E237B3CEA00FEE668 /* CardsModel.swift */,
+				EEB2B740237B3F2800FEE668 /* Card.swift */,
+				EEB2B742237B55B000FEE668 /* CardCollectionViewCell.swift */,
 				EEB2B725237A810200FEE668 /* Assets.xcassets */,
 				EEB2B727237A810200FEE668 /* LaunchScreen.storyboard */,
 				EEB2B72A237A810200FEE668 /* Info.plist */,
@@ -201,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB2B721237A80FD00FEE668 /* ViewController.swift in Sources */,
+				EEB2B73F237B3CEA00FEE668 /* CardsModel.swift in Sources */,
+				EEB2B741237B3F2800FEE668 /* Card.swift in Sources */,
 				EEB2B71D237A80FD00FEE668 /* AppDelegate.swift in Sources */,
+				EEB2B743237B55B000FEE668 /* CardCollectionViewCell.swift in Sources */,
 				EEB2B71F237A80FD00FEE668 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
